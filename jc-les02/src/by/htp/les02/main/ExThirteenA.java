@@ -2,7 +2,7 @@ package by.htp.les02.main;
 
 import java.util.Scanner;
 
-public class Main {
+public class ExThirteenA {
     public static void main(String[] args) {
         double a;
         double b;
@@ -34,7 +34,7 @@ public class Main {
         c = sc.nextDouble();
         sc.nextLine();
 
-        double result = ((b + Math.sqrt(Math.pow(b, 2) + (4 * a * c))) / (2 * a)) - (Math.pow(a, 3) * c) + b;
+        double result = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a)) - (Math.pow(a, 3) * c) + b;
         System.out.println(result);
     }
 }
